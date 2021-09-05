@@ -35,9 +35,9 @@
         </nav>
     </div>
 
-    <!-- header -->
+    
 
-    <header>
+    <!-- <header>
         <div class="wrap container">
             <hgroup>
             <h2>Online outdoor shop, buy online <br> outdoor  clothing &amp; trekking</h2>
@@ -50,4 +50,4 @@
             </hgroup>
            
         </div>
-    </header>
+    </header> -->
