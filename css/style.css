@@ -150,7 +150,7 @@ header hgroup hr {
     background: var(--primary);
     height: 3px;
     width: 10%;
-    margin: 20px 0;;
+    margin: 20px 0;
 }
 /**************
 products
@@ -175,9 +175,15 @@ products
 
 
 /**************
-
+about
 ***************/
-
+.about .container hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 10%;
+    margin: 20px 0;
+}
 
 
 /**************
