@@ -177,11 +177,17 @@ products
 /**************
 about
 ***************/
-.about .container hr {
+.about {
+    padding: 100px 0;
+}
+.about hr {
     border: none;
     background: var(--primary);
     height: 3px;
     width: 10%;
+    margin: 20px 0;
+}
+.about h2 {
     margin: 20px 0;
 }
 

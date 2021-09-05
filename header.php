@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Putovanja</title>
+    <title>Hiking shop</title>
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -33,6 +33,7 @@
                 <li><a href="contact.php">Contact us</a></li>
             </ul>
         </nav>
+        <hr>
     </div>
 
     
