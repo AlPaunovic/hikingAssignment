@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+:root {
+    --headings: 'Coda Caption', sans-serif;
+    --bodyFont: 'Open Sans', sans-serif;
+    --fontSize: 16px;
+    --transition: .3s ease-in-out;
+    --lightgray: #f6f6f6;
+    --white: #fff;
+    --black: #1e1e1e;
+    --primary: #3a8bcd;
+    --gray: #6c757d;
+    --text: #4a4a4a;
+    --borders: #eeeeee;
+}
+
+/*   KO RADI SASS EVO VARIJABLE I ZA SASS
+$headings: 'Coda Caption', sans-serif;
+$bodyFont: 'Open Sans', sans-serif;
+$fontSize: 16px;
+$transition: .3s ease-in-out;
+$lightgray: #f6f6f6;
+$white: #fff;
+$black: #1e1e1e;
+$primary: #3a8bcd;
+$gray: #6c757d;
+$text: #4a4a4a;
+$borders: #eeeeee;
+*/
+
+
+
+/**************
+basic styles
+***************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--bodyFont);
+    font-size: var(--fontSize);
+    color: var(--text);
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    transition: var(--transition);
+}
+button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary);
+    color: var(--white);
+    text-transform: uppercase;
+    transition: var(--transition);
+    margin-top: 25px;
+    font-weight: bold;
+}
+button:hover {
+    background: var(--white);
+    color: var(--primary);
+    cursor: pointer;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+h1, h2, h3, h4 {
+    color: var(--text);
+    font-family: var(--headings);
+}
+/**************
+navBar
+***************/
+.navBar {
+    border-top: 4px solid var(--primary);
+    
+}
+.navBar h1 {
+    font-family: var(--headings);
+    text-align: center;
+    margin: 10px auto;
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.navBar i {
+    color: var(--black);
+    font-size: 2.6rem;
+}
+.navBar hr {
+    background: var(--gray);
+    opacity: .1;
+    height: 1px;
+    border: none;
+}
+.navBar nav ul {
+    display: flex;
+    justify-content: center;
+}
+.navBar nav ul li {
+    display: inline;
+    margin: 20px 30px;
+}
+.navBar nav ul li a {
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+}
+.navBar nav ul li a:hover {
+    color: var(--primary);
+    cursor: pointer;
+}
+
+/**************
+header
+***************/
+header {
+    background-image: url(../img/header.jpg);
+    height: 90vh;
+    background-position: center top;
+    background-size: cover;   
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+}
+header hgroup {
+    background: linear-gradient( 
+        rgba(246, 246, 246, .7),
+        rgba(246, 246, 246, .7));
+    padding: 40px;
+    text-align: left;
+    width: 40%;
+    
+}
+header hgroup h2 {
+    color: var(--black);
+}
+header hgroup hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 10%;
+    margin: 20px 0;;
+}
+/**************
+products
+***************/
+.products {
+    padding: 100px 0;
+}
+.products hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 10%;
+    margin: 20px 0;
+}
+.products h2 {
+    margin-bottom: 20px;
+}
+.products .slider .item {
+    border: 1px solid var(--borders);
+    padding: 20px;
+}
+
+
+/**************
+
+***************/
+
+
+
+/**************
+
+***************/
+
+
+
+/**************
+footer
+***************/
+footer .subscribe {
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--white);
+}
+footer .subscribe h2 {
+    font-size: 1.5rem;
+}
+footer .subscribe p {
+    font-size: .9rem;
+    padding: 20px 0;
+}
+footer .subscribe input {
+    font-size: 0.9rem;
+    color: var(--white);
+    border: none;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    background: transparent;
+    padding: 10px 15px;
+}
+footer .subscribe button {
+    background: var(--white);
+    color: var(--text);
+    text-transform: none;
+    padding: 10px 15px;
+    font-size: .9rem;
+    font-weight: 300;
+}
+footer .footerDown {
+    padding: 100px 0 10px 0;
+    text-align: center;
+    background-color: var(--white);
+    color: var(--text);
+   
+}
+footer .footerDown .navBar {
+    border-top: none;
+}
+footer .footerDown .navBar nav ul li a {
+    color: var(--text);
+    font-size: 0.9rem;
+    font-weight: 300;
+} 
+footer .footerDown .navBar nav ul li a:hover {
+    color: var(--primary);
+}
+footer .footerDown .row i {
+    font-size: 1.5rem;
+    padding: 0 10px;
+    color: var(--text);
+}
+footer .footerDown .row i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+footer .footerDown .row p {
+    color: var(--text);
+    font-weight: bold;
+    margin-top: 100px;
+}
