@@ -210,7 +210,7 @@ about
 .about article:last-child p {
     padding-bottom: 30px;
 }
-.about .hr {
+.about #hr {
     background-color: var(--gray);
     border: none;
     height: 1px;
@@ -230,14 +230,61 @@ about
 
 }
 /**************
-
+contact
 ***************/
+.contact {
+    padding: 100px 0;
+}
+.contact hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact article {
+    flex: 0 0 46%;
+}
+
+
+.contact #hr {
+    background-color: var(--gray);
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin: 40px 0 20px 0;
+}
+.contact i {
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+.contact i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+.contact a {
+   padding-left: 20px;
+}
+.contact article:last-child input:last-child p {
+    text-align: left;
+}
+.contact article:last-child input:last-child form {
+    font-family: var(--bodyFont);
+}
+
+
 
 
 
 /**************
 footer
 ***************/
+
 footer .subscribe {
     padding: 100px 0;
     text-align: center;
@@ -273,7 +320,6 @@ footer .footerDown {
     text-align: center;
     background-color: var(--white);
     color: var(--text);
-   
 }
 footer .footerDown .navBar {
     border-top: none;
