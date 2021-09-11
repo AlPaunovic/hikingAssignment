@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'partials/header.php'; ?>
 
 <!-- contact -->
 
@@ -65,4 +65,4 @@
 </div>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'partials/footer.php'; ?>
