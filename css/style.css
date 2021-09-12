@@ -234,6 +234,7 @@ contact
 ***************/
 .contact {
     padding: 100px 0;
+    
 }
 .contact hr {
     border: none;
@@ -277,9 +278,28 @@ contact
     font-family: var(--bodyFont);
 }
 
+/**************
+productsGroup
+***************/
+/* .productsGroup .container {
+    background: red;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productsGroup div {
+    flex: 0 0 10%;
+}
+.productsGroup img {
+    width: 100%;
+    border: 1px solid var(--borders);
+    padding: 20px;
+} */
 
-
-
+.producte {
+    background: coral;
+}
 
 /**************
 footer
