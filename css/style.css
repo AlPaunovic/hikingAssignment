@@ -279,27 +279,32 @@ contact
 }
 
 /**************
-productsGroup
+producte
 ***************/
-/* .productsGroup .container {
-    background: red;
+
+.producte {
     padding: 100px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.productsGroup div {
-    flex: 0 0 10%;
-}
-.productsGroup img {
-    width: 100%;
-    border: 1px solid var(--borders);
+.producte article {
+    flex: 0 0 24%;
     padding: 20px;
-} */
-
-.producte {
-    background: coral;
+    border: 1px solid var(--borders);
+    margin-bottom: 20px;
 }
+.producte img {
+    width: 100%;
+}
+.producte h4 {
+    font-size: 1.3rem;
+}
+.producte p {
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
 
 /**************
 footer
