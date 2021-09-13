@@ -23,31 +23,31 @@
         </article>
 
         <article>
-            <img src="img/jackets.jpg" alt="">
+            <a href="jackets.php"><img src="img/jackets.jpg" alt=""></a>
             <h4>Jackets</h4>
             <p> &#36; 150</p>
         </article>
 
         <article>
-            <img src="img/skirts.jpg" alt="">
+            <a href="skirts.php"><img src="img/skirts.jpg" alt=""></a>
             <h4>Skirts</h4>
             <p> &#36; 60</p>
         </article>
 
         <article>
-            <img src="img/shirts.jpg" alt="">
+            <a href="shirts.php"><img src="img/shirts.jpg" alt=""></a>
             <h4>Shirts</h4>
             <p> &#36; 30</p>
         </article>
 
         <article>
-            <img src="img/socks.jpg" alt="">
+            <a href="socks.php"><img src="img/socks.jpg" alt=""></a>
             <h4>Socks</h4>
             <p> &#36; 10</p>
         </article>
 
         <article>
-            <img src="img/gloves.jpg" alt="">
+            <a href="gloves.php"><img src="img/gloves.jpg" alt=""></a>
             <h4>Gloves</h4>
             <p> &#36; 25</p>
         </article> 

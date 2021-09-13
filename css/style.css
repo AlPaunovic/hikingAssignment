@@ -296,6 +296,17 @@ producte
 }
 .producte img {
     width: 100%;
+    opacity: 0.85;
+}
+.producte a {
+    overflow: hidden;
+    display: block;
+}
+.producte img:hover {
+   transform: scale(1.1);
+   transition: var(--transition);
+   cursor: pointer;
+   opacity: 1;
 }
 .producte h4 {
     font-size: 1.3rem;
@@ -547,7 +558,407 @@ poles
 }
 
 
+/**************
+jackets
+***************/
 
+.jackets {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.jackets article:first-child {
+    flex: 0 0 36%;
+}
+.jackets article:last-child {
+    flex: 0 0 60%;
+    
+}
+.jackets img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.jackets article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.jackets article:first-child h2 {
+    margin: 20px 0;
+}
+.jackets article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jackets article:last-child .price, span {
+    color: var(--primary);
+}
+.jackets article:last-child .productDescription {
+    margin: 20px 0;
+}
+.jackets article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.jackets article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.jackets article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+.jackets input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.jackets input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+.jackets article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+
+/**************
+skirts
+***************/
+
+.skirts {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skirts article:first-child {
+    flex: 0 0 36%;
+}
+.skirts article:last-child {
+    flex: 0 0 60%;
+    
+}
+.skirts img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.skirts article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.skirts article:first-child h2 {
+    margin: 20px 0;
+}
+.skirts article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skirts article:last-child .price, span {
+    color: var(--primary);
+}
+.skirts article:last-child .productDescription {
+    margin: 20px 0;
+}
+.skirts article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.skirts article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.skirts article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+.skirts input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.skirts input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+.skirts article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+
+/**************
+shirts
+***************/
+
+.shirts {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shirts article:first-child {
+    flex: 0 0 36%;
+}
+.shirts article:last-child {
+    flex: 0 0 60%;
+    
+}
+.shirts img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.shirts article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.shirts article:first-child h2 {
+    margin: 20px 0;
+}
+.shirts article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shirts article:last-child .price, span {
+    color: var(--primary);
+}
+.shirts article:last-child .productDescription {
+    margin: 20px 0;
+}
+.shirts article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.shirts article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.shirts article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+.shirts input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.shirts input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+.shirts article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+/**************
+socks
+***************/
+
+.socks {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.socks article:first-child {
+    flex: 0 0 36%;
+}
+.socks article:last-child {
+    flex: 0 0 60%;
+    
+}
+.socks img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.socks article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.socks article:first-child h2 {
+    margin: 20px 0;
+}
+.socks article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socks article:last-child .price, span {
+    color: var(--primary);
+}
+.socks article:last-child .productDescription {
+    margin: 20px 0;
+}
+.socks article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.socks article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.socks article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+.socks input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.socks input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+.socks article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+/**************
+gloves
+***************/
+
+.gloves {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gloves article:first-child {
+    flex: 0 0 36%;
+}
+.gloves article:last-child {
+    flex: 0 0 60%;
+    
+}
+.gloves img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.gloves article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.gloves article:first-child h2 {
+    margin: 20px 0;
+}
+.gloves article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gloves article:last-child .price, span {
+    color: var(--primary);
+}
+.gloves article:last-child .productDescription {
+    margin: 20px 0;
+}
+.gloves article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.gloves article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.gloves article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+.gloves input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.gloves input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+.gloves article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
 
 
 
