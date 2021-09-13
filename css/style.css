@@ -305,6 +305,254 @@ producte
     color: var(--primary);
 }
 
+/**************
+boots
+***************/
+
+.boots {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boots article:first-child {
+    flex: 0 0 36%;
+}
+.boots article:last-child {
+    flex: 0 0 60%;
+    
+}
+.boots img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.boots article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.boots article:first-child h2 {
+    margin: 20px 0;
+}
+.boots article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boots article:last-child .price, span {
+    color: var(--primary);
+}
+.boots article:last-child .productDescription {
+    margin: 20px 0;
+}
+.boots article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.boots article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.boots article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+
+.boots article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+.boots input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.boots input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+
+/**************
+pants
+***************/
+
+.pants {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pants article:first-child {
+    flex: 0 0 36%;
+}
+.pants article:last-child {
+    flex: 0 0 60%;
+    
+}
+.pants img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.pants article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.pants article:first-child h2 {
+    margin: 20px 0;
+}
+.pants article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pants article:last-child .price, span {
+    color: var(--primary);
+}
+.pants article:last-child .productDescription {
+    margin: 20px 0;
+}
+.pants article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.pants article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.pants article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+
+.pants article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+.pants input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.pants input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+/**************
+poles
+***************/
+
+.poles {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.poles article:first-child {
+    flex: 0 0 36%;
+}
+.poles article:last-child {
+    flex: 0 0 60%;
+    
+}
+.poles img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+.poles article:first-child hr {
+    border: none;
+    background: var(--primary);
+    height: 3px;
+    width: 5%;
+    margin: 20px 0;
+}
+
+.poles article:first-child h2 {
+    margin: 20px 0;
+}
+.poles article:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poles article:last-child .price, span {
+    color: var(--primary);
+}
+.poles article:last-child .productDescription {
+    margin: 20px 0;
+}
+.poles article:last-child .category {
+    margin: 10px 0;
+    line-height: 3;
+}
+.poles article:last-child hr {
+    border: none;
+    background: var(--gray);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.poles article:last-child a {
+    margin-right: 10px;
+    color: var(--primary);
+}
+ .poles input[type=submit] {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.poles input[type="number"] {
+    border: 1px solid var(--primary);
+    padding: 5px 15px;
+}
+.poles article:last-child i:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
 
 /**************
 footer

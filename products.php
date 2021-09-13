@@ -5,19 +5,19 @@
      <section class="producte container"> 
          
         <article>
-            <img src="img/boots.jpg" alt="">
+            <a href="boots.php"><img src="img/boots.jpg" alt=""></a>
             <h4>Boots</h4>
             <p> &#36; 210</p>
         </article>
 
         <article>
-            <img src="img/pants.jpg" alt="">
+            <a href="pants.php"> <img src="img/pants.jpg" alt=""></a>
             <h4>Pants</h4>
             <p> &#36; 40</p>
         </article>
 
         <article>
-            <img src="img/poles.jpg" alt="">
+            <a href="poles.php"><img src="img/poles.jpg" alt=""></a>
             <h4>Poles</h4>
             <p> &#36; 50</p>
         </article>
