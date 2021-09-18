@@ -24,7 +24,7 @@
 
     <!-- navBar -->
     <div class="navBar">
-        <a href="#"><h1><i class="fas fa-hiking"></i> Hiking shop</h1></a>
+        <a class="logo" href="index.php"><h1><i class="fas fa-hiking"></i> Hiking shop</h1></a>
         <hr>
         <nav>
             <ul>

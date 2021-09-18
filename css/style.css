@@ -81,14 +81,16 @@ navBar
     border-top: 4px solid var(--primary);
     
 }
-.navBar h1 {
+.navBar .logo h1 {
     font-family: var(--headings);
     text-align: center;
     margin: 10px auto;
     color: var(--primary);
     font-weight: 800;
     font-size: 2.5rem;
+    transition: var(--transition);
 }
+
 .navBar i {
     color: var(--black);
     font-size: 2.6rem;
@@ -111,6 +113,7 @@ navBar
     text-transform: uppercase;
     color: var(--black);
     font-weight: bold;
+    transition: var(--transition);
 }
 .navBar nav ul li a:hover {
     color: var(--primary);

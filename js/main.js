@@ -1,7 +1,9 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    margin:10,
     nav:true,
-    margin: 10,
     responsive:{
         0:{
             items:1
@@ -13,7 +15,6 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
-})
-// $(.gallery).find('img').css('padding','20px'); --> probao ovako ne radi
+});
 
-// $(.gallery > .owl-carousel owl-theme > .item).find('img').css('padding','20px');  --> a ne radi ni ovako
+
