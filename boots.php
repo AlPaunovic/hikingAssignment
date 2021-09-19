@@ -3,8 +3,10 @@
 <section class="boots container">
 
     <article>
+        
         <hr>
         <h2>Boots</h2>
+        
         <img src="img/boots.jpg" alt="">
     </article>
 

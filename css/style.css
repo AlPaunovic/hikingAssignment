@@ -245,33 +245,34 @@ contact
     
 }
 .contact article {
-    flex: 0 0 48%;
+    flex: 0 0 50%;
+}
+.contact img {
+    width: 100%;
 }
 .contact .forms  {
-    flex: 0 0 48%;
+    flex: 0 0 50%;
         
 }
 .contact .forms form {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--borders);
     border-radius: 5px;
         
 }
 .contact .forms form input {
-    padding: 10px;
+    padding: 10px 10px;
     margin-bottom: 10px;
 }
 .contact .forms form textarea {
-    padding: 10px;
+    padding: 10px 10px;
     margin-bottom: 10px;
 }
 .contact .forms form button {
     margin-top: 20px;
     display: flex;
     align-self: flex-start;
-    padding: 15px 40px;
-    
+    padding: 15px 30px;
 }
 
 .contact #hr {
@@ -284,6 +285,7 @@ contact
 .contact i {
     color: var(--primary);
     font-size: 1.2rem;
+    margin-top: 10px;
 }
 .contact i:hover {
     transform: rotate(45deg);
@@ -1057,4 +1059,270 @@ footer .footerDown .row p {
     color: var(--text);
     font-weight: bold;
     margin-top: 100px;
+}
+
+
+/*******
+responsive
+*********/
+
+@media(max-width: 768px) {
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    .navBar i {
+        font-size: 1.5rem;
+    }
+    .navBar .logo h1 {
+        
+        margin: 10px auto;
+        font-size: 1.5rem;
+    }
+    .navBar nav ul li {
+        margin: 10px 5px;
+    }
+    .navBar nav ul li a {
+        font-size: 0.9rem;
+        font-weight: 400;   
+    }
+
+    
+    header {
+        height: 80vh;
+        background-position: right center;
+    }
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+    }
+    header hgroup {
+        padding: 15px;
+        width: 80%;
+        
+    }
+    header hgroup h2 {
+        font-size: 1.3rem;
+    }
+    header hgroup p {
+        font-size: .9rem;
+    }
+    header hgroup hr {
+        border: none;
+        background: var(--primary);
+        height: 3px;
+        width: 10%;
+        margin: 10px 0;
+    }
+    
+    .products hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+    
+    .products .slider .item {
+        border: 1px solid var(--borders);
+        padding: 20px;
+        margin: 20px;
+    }
+
+
+    .about hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+   
+    .about article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .about article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+
+    .contact hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+    .contact article {
+        flex: 0 0 100%;
+        
+    }
+    .contact article iframe {
+        padding: 20px;
+        
+    }
+    .contact .forms {
+        flex: 0 0 100%;
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+    }
+    .producte article {
+        flex: 0 0 100%;
+        
+    }
+    .products .slider .item {
+        border: 1px solid var(--borders);
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .producte {
+        padding: 100px 20px;
+    }
+
+
+    footer .subscribe {
+        padding: 100px 20px;
+        text-align: center;
+        background-color: var(--primary);
+        color: var(--white);
+    }
+
+    .boots {
+        padding: 50px 0;
+    }
+    
+    .boots article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .boots article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .boots hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+
+    .pants {
+        padding: 50px 0;
+    }
+    
+    .pants article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .pants article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .pants hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+
+    .poles {
+        padding: 50px 0;
+    }
+    
+    .poles article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .poles article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .poles hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+
+    .jackets {
+        padding: 50px 0;
+    }
+    
+    .jackets article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .jackets article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .jackets hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+
+    .skirts {
+        padding: 50px 0;
+    }
+    
+    .skirts article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .skirts article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .skirts hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+
+    .shirts {
+        padding: 50px 0;
+    }
+    
+    .shirts article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .shirts article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .shirts hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+    .socks {
+        padding: 50px 0;
+    }
+    
+    .socks article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .socks article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .socks hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
+
+    .gloves {
+        padding: 50px 0;
+    }
+    
+    .gloves article:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    .gloves article:last-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+    
+    .gloves hr, h2 {
+        margin: 20px 0 20px 20px;
+    }
+
 }

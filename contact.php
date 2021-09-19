@@ -9,7 +9,7 @@
 <div class="row">
 
     <article>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.91978749271!2d20.75171101552396!3d44.455315979102004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4750b0b796588af5%3A0x87fedd2e02b896ab!2s353!5e0!3m2!1ssr!2srs!4v1630865029115!5m2!1ssr!2srs" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.672649386828!2d20.69615541552352!3d44.43987667910225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4750b09039e1bbb1%3A0x8be180888d77f30a!2z0KPQu9C40YbQsCDQiNCw0L3QutCwINCa0LDRgtC40ZvQsCA2NCwg0JzQu9Cw0LTQtdC90L7QstCw0YY!5e0!3m2!1ssr!2srs!4v1632082454124!5m2!1ssr!2srs" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </article>
     
     
