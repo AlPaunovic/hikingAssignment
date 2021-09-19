@@ -15,10 +15,10 @@
                 <a href="index.php"><h1><i class="fas fa-hiking"></i> Hiking shop</h1></a>
                 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Contact us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="products.php">Products</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="contact.php">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
