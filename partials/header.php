@@ -39,17 +39,4 @@
 
     
 
-    <!-- <header>
-        <div class="wrap container">
-            <hgroup>
-            <h2>Online outdoor shop, buy online <br> outdoor  clothing &amp; trekking</h2>
-            <hr>
-            <p> Quod laborum officia facilis neque voluptatum laboriosam <br>
-                assumenda officiis? Voluptatem neque odio ducimus, nulla <br>
-                sequi pariatur? Voluptatem nam necessitatibus enim quod velit? <br>
-                Lorem ipsum dolor sit amet consect.</p>
-            <button>order now</button>
-            </hgroup>
-           
-        </div>
-    </header> -->
+    

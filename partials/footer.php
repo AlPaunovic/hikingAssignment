@@ -4,7 +4,7 @@
             <h2>Subscribe on hiking shop now!</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Sunt consectetur voluptate dolore deleniti earum doloremque molestias accusantium, corporis harum? <br> Ducimus commodi reiciendis nisi sequi expedita, itaque vel excepturi!</p>
             <div class="row">
-                <form action="">
+                <form>
                     <input type="email" name="emailaddress" placeholder="Your email ..." >
                     <button>Subscribe</button>
                 </form>
@@ -12,7 +12,7 @@
         </section>
         <section class="footerDown">
             <div class="navBar">
-                <a href="#"><h1><i class="fas fa-hiking"></i> Hiking shop</h1></a>
+                <a href="index.php"><h1><i class="fas fa-hiking"></i> Hiking shop</h1></a>
                 <nav>
                     <ul>
                         <li><a href="">Home</a></li>

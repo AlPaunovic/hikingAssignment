@@ -95,6 +95,7 @@ navBar
     color: var(--black);
     font-size: 2.6rem;
 }
+
 .navBar hr {
     background: var(--gray);
     opacity: .1;
@@ -250,11 +251,39 @@ contact
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 20px;
+    
+    
 }
 .contact article {
-    flex: 0 0 46%;
+    flex: 0 0 48%;
 }
-
+.contact .forms  {
+    flex: 0 0 48%;
+        
+}
+.contact .forms form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--borders);
+    border-radius: 5px;
+        
+}
+.contact .forms form input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact .forms form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact .forms form button {
+    margin-top: 20px;
+    display: flex;
+    align-self: flex-start;
+    padding: 15px 40px;
+    
+}
 
 .contact #hr {
     background-color: var(--gray);
@@ -1001,6 +1030,13 @@ footer .subscribe button {
     padding: 10px 15px;
     font-size: .9rem;
     font-weight: 300;
+}
+footer button:hover {
+    background: transparent;
+    color: var(--text);
+    transition: var(--transition);
+    cursor: pointer;
+    border: 1px solid var(--white);
 }
 footer .footerDown {
     padding: 100px 0 10px 0;
